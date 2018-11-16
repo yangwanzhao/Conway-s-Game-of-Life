@@ -4,9 +4,11 @@ g++ life.cc \
 	-lopencv_imgproc \
 	-lopencv_imgcodecs \
 	-lopencv_videoio \
+	-pthread \
+	-ltbb \
 	-o gamelife
 
-./gamelife -i "born.txt" -o "life.mp4" 
+# ./gamelife -i "born1.txt" -o "life.mp4" 
 
 
 
